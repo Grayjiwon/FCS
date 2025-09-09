@@ -1,0 +1,15 @@
+{
+  "name": "coffeechat-bot",
+  "type": "module",
+  "scripts": {
+    "start": "node discord-bot.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/supabase-js": "^2.57.2",
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
